@@ -113,7 +113,7 @@ public class Autenticacion extends JFrame implements ActionListener {
         Autenticacion obj = new Autenticacion();
     }
 
-    int contador;
+    int contador; //contador para error de usuario
 
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == botonAceptar) {
@@ -123,6 +123,7 @@ public class Autenticacion extends JFrame implements ActionListener {
                 JOptionPane.showMessageDialog(this, "Inicio de sesión exitoso");
                 abrirVentanaHorario();
                 dispose(); // Cierra la ventana de autenticación
+                
             } else {
                 JOptionPane.showMessageDialog(this, "Usuario o contraseña incorrectos");
                 nombreUsu.setText("");
