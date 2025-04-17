@@ -22,7 +22,7 @@ public class Horario extends JFrame {
         JButton borrarButton = new JButton("Borrar");
         JButton salirButton = new JButton("Salir");
 
-        // Cambiar el tipo de letra para los botones
+        // 
         Font buttonFont = new Font("Britannic Bold", Font.BOLD, 16);
         guardarButton.setFont(buttonFont);
         borrarButton.setFont(buttonFont);
