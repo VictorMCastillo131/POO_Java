@@ -64,7 +64,7 @@ public class Autenticacion extends JFrame implements ActionListener {
 
         contraseña = new JLabel();
         contraseña.setHorizontalAlignment(SwingConstants.CENTER);
-        contraseña.setText("Contraseña");
+        contraseña.setText("Contraseña"); //campo de contraseña
         contraseña.setBounds(160, 75, 110, 100);
         contraseña.setForeground(Color.BLACK);
         contraseña.setFont(new Font("Britannic Bold", 0, 20));
