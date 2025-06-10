@@ -9,6 +9,7 @@ public class Canicas2 {
         System.out.println("Las canicas azules que tiene Carlitos son: " + a);
         float ag = (int) (total * 10.0 / 100);
         System.out.println("Las canicas aguitas que tiene Carlitos son: " + ag);
+        
         float pon = (int) (total * 35.0 / 100);
         System.out.println("Las canicas ponchitos negros que tiene Carlitos son: " + pon);
         float bon = (int) (total * 20.0 / 100);
