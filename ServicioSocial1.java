@@ -8,7 +8,7 @@ public class ServicioSocial1 {
 public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
           System.out.println("Dime cuántos créditos acumulaste el primer semestre:");
-            int s1 = scanner.nextInt();
+            int s1 = scanner.nextInt();//omg
             
             if (s1 == 34) {
                 System.out.println("Tienes el máximo de créditos acumulados.");
