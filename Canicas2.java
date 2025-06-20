@@ -1,5 +1,5 @@
 package Unidad2;
-
+//
 public class Canicas2 {
     public void imprimirPorCanicas( ) {
         short total = 158;
